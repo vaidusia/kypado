@@ -229,25 +229,37 @@ padding:0;
 
 /* Slide Styles */
 #header #hero .slides li.slide1{
-background:url(../images/empty.png) right center no-repeat;
+background:url(../images/pic1.png) right center no-repeat;
 }
 
 #header #hero .slides li.slide2 {
-background:url(../images/empty.png) right center no-repeat;
+background:url(../images/pic3.png) right center no-repeat;
 }
 
 #header #hero .slides li.slide3 {
-background:url(../images/empty.png) right center no-repeat;
+background:url(../images/pic2.png) right center no-repeat;
+}
+
+#header #hero .slides li.slide4 {
+background:url(../images/pic4.png) right center no-repeat;
 }
 
 #header #hero .slides li h1 {
 font-weight:400;
 color:#293088;
-font-size:8em;
+font-size:7em;
 line-height:.85em;
 letter-spacing:-.04em;
 width:50%;
 margin-bottom:.25em;
+}
+
+#header #hero .slides li.slide2 h1 {
+font-size:9em;
+}
+
+#header #hero .slides li.slide3 h1 {
+font-size:8em;
 }
 
 #header #hero .slides li h1 small {
@@ -444,7 +456,7 @@ color:#d7d9f3;
 #main #what-we-do .page {
 zoom:1;
 width:1000px;
-background:url(../images/empty.png) 90% top no-repeat;
+background:url(../images/pic1.png) 90% top no-repeat;
 margin:auto;
 }
 
