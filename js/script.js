@@ -1,7 +1,6 @@
 var pageWidth = 1000;
 var slideInterval = 5000;
-$(window).load(function(){
-	$("#contact label").inFieldLabels();
+$(window).load(function(){	
 	$(this).resize().scroll();
 }).scroll(function(){
 	if($(this).scrollTop()>550){
