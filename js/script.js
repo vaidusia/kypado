@@ -3,7 +3,7 @@ var slideInterval = 5000;
 $(window).load(function(){	
 	$(this).resize().scroll();
 }).scroll(function(){
-	if($(this).scrollTop()>550){
+	if($(this).scrollTop()>350){
 		$("#toTop").attr('class','visible');
 	}else{
 		$("#toTop").attr('class','');
@@ -20,7 +20,8 @@ $(function(){
 	}
 	setWindowDimensions();
 
-	var toTop = $('<a id="toTop" href="#top">####</a>').smoothScroll().appendTo('body'); //TODO: add icon
+	var toTop = $('<a id="toTop" href="#top" data-icon="&#xe001;"></a>').smoothScroll().appendTo('body'); //TODO: add icon
+	
 
 	$('nav a').smoothScroll();
 	$('.slides .cta').smoothScroll({

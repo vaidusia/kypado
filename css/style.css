@@ -95,9 +95,46 @@ body {
 }
 
 #topbar {
-	height: 50px;
+	height: 80px;
 	background-color: #1e3e64;
 	display: block;	
+}
+
+#topbar .w-container {
+	padding: 1em 0;
+}
+
+#topbar nav {
+	padding: 1.1em 0;
+	float: right;
+
+}
+
+#topbar nav ul {	
+	float: right;
+	display: block;
+}
+#topbar nav ul li {
+	display: inline;
+	padding: 10px 15px 10px 15px;
+	border-right: 1px solid;
+}
+
+#topbar nav ul li a {
+	vertical-align: middle;
+	display: inline-block;
+	text-decoration: none;
+	font-size: 1.3em;
+	color: #c7c7c7;
+	transition-property: color;
+	transition-duration: 0.5s;
+	transition-timing-function: ease-in-out;
+	-webkit-transition:color 0.5s; /* Safari */
+}
+
+#topbar nav ul li a:hover {
+	color: #ff9c00;
+	text-decoration: none;
 }
 
 #header {
@@ -175,19 +212,23 @@ margin:5em auto;
 	margin-right: 30px;
 	margin-top: 20px;
 	margin-bottom: 20px;
-	background-color:#21456f;	
+	background-color:#21456f;
+	height: 600px;
 }
 
 #main #services div.service h1 {
 	font-size: 1.2em;
 	color: #c2d1e5;
-	padding: 0.5em;
+	padding: 0.8em;
+	height: 50px;
 }
 
-#main #services div.service p {
+#main #services div.service p,
+#main #services div.service li {
 	font-size: 1em;
 	color:#c7c7c7;
 	padding: 0.5em;
+	height: 100%;
 }
 
 .sectionend {
@@ -235,6 +276,19 @@ background-color:#d5eaff;
 	font-size: 3em;
 	text-align: center;
 }
+
+#getInTouch h1 a {
+	font-size: 1em;
+	text-align: center;
+	text-decoration: none;
+	color: #c2d1e5;
+	font-family: 'icomoon';
+	transition: color 0.5s;
+	-webkit-font-smoothing: antialiased;
+}
+
+#getInTouch h1 a:hover {
+	color: #ff9c00;
 }
 
 #contact label, #contact input, #contact textarea {
