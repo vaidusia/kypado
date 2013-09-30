@@ -13,6 +13,10 @@ body {
   	margin-bottom:0px;
 }
 
+.jumbotron {
+	text-align: center;
+}
+
 #services .page-header {
 	margin-top: 0px;
 	padding-top: 0px;
@@ -40,4 +44,19 @@ body {
 
 .list-group-item.fixedsize {
     height: 66px;
+}
+
+.well.contacts {
+	height: 314px;
+}
+
+.well.contacts {
+	text-align: center;
+	vertical-align:middle;
+}	
+
+.well.contacts h1 {
+	line-height: 300px;
+	margin:0px;
+	padding:0px;
 }
