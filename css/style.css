@@ -29,3 +29,15 @@ body {
 .sectionDevider{ 
 	height: 50px;
 }
+
+.panel.fixedsize {
+    height: 400px;
+}
+
+.panel-heading.fixedsize {
+    height: 70px;
+}
+
+.list-group-item.fixedsize {
+    height: 66px;
+}
