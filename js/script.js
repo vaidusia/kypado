@@ -1,5 +1,22 @@
 $(function(){
+	
+	// Navigation
 	$('ul.nav a').smoothScroll();
+
+	$('.navbar ul li').click(function(e) {
+		$('.navbar ul li').removeClass('active');       
+        $(this).addClass('active');
+       
+	});
+
+	var selectMenuItem = function(menuItem) {
+        $('.navbar ul li').removeClass('active');
+        if (menuItem) {
+            $('.' + menuItem).addClass('active');
+        }
+    }
+
+
 
 	$( "#form-contact" ).each(function() {	
 		var form = $(this);
@@ -62,7 +79,5 @@ $(function(){
 			console.log("shake" + node);
 			node.parent().addClass("has-error");
 		}
-	});
-
-	
+	});	
 });
