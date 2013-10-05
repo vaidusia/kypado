@@ -7,7 +7,7 @@ $mail = new PHPMailer();
 $mail->AddAddress("info@kypado.com"); // <<------------ YOUR ADDRESS - SET HERE YOUR EMAIL ADDRESS, TO SEND EMAILS TO.
 
 $mail->From     = utf8_decode($_POST['email']."");
-$mail->FromName = utf8_decode("CV PAGE, from: ".$_POST['name']."");
+$mail->FromName = utf8_decode("Kypado page, from: ".$_POST['name']."");
 $mail->Subject  = "Kypado inquery";//utf8_decode($_POST['subject'.""]);
 $mail->Body     = utf8_decode($_POST['msg'].""); 
 $mail->WordWrap = 50;
