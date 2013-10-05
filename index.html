@@ -2,7 +2,7 @@
 <html class='no-js' lang='en'><head>
 <meta charset='utf-8' />
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Page title</title>
+<title>Kypado</title>
 <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
 <link href='css/style.css' rel='stylesheet' />
 </head>
@@ -157,37 +157,39 @@
 	    
 	    <div id="contacts" class="bs-docs-section">
 	    	<div class="row">
-	    		<div class="page-header">
-			        	<h1>GET IN TOUCH</h1>
-			        </div>
+	    		<div class="col-lg-12">
+		    		<div class="page-header">
+				        	<h1>GET IN TOUCH</h1>
+				        </div>
+				</div>
 				<div class="col-lg-6">					
 			        <div class="well">
-			        	<form class="bs-example form-horizontal">
+			        	<form id="form-contact" class="bs-example form-horizontal" action="php/email.clean.php">
 			                <fieldset>			                  	
 
 			                	<div class="form-group">				                    
 				                    <div class="col-lg-12">
-				                      <input type="text" class="form-control" id="inputName" placeholder="Name">
+				                      <input type="text" class="form-control name" placeholder="Name">
 				                    </div>
 			                  	</div>
 
 			                  	<div class="form-group">				                    
 				                    <div class="col-lg-12">
-				                      <input type="text" class="form-control" id="inputEmail" placeholder="Email">
+				                      <input type="text" class="form-control email" placeholder="Email">
 				                    </div>
 			                  	</div>
 
 			                  	<div class="form-group">			                    	
 			                    	<div class="col-lg-12">
-				                      <textarea class="form-control" rows="3" id="textArea" placeholder="Message"></textarea>				                      
+				                      <textarea class="form-control message" rows="3" placeholder="Message"></textarea>				                      
 				                    </div>
 			                  	</div>
 			                   	<div class="form-group">
 				                    <div class="col-lg-5 col-lg-offset-1">			                       
-				                      <button type="submit" class="btn btn-primary">Submit</button> 
+				                      <button type="submit" class="btn btn-primary submit">Submit</button> 
 				                    </div>				                    
 			                  	</div>
-
+			                  	<div id="form-confirmation"></div>
 			                  </fieldset>
 			            </form>
 			        </div>			        
@@ -203,6 +205,7 @@
 
 <script src='js/jquery-2.0.3.min.js'></script>
 <script src="js/jquery.smooth-scroll.min.js"></script>
+<script src="js/jquery.easing.1.3.js"></script>
 <script src="bootstrap/js/bootstrap.min.js"></script>
 <script src='js/script.js'></script> 
 
