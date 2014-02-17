@@ -73,3 +73,8 @@ ul.nav li a {
 	height: 10px;
 	width: 100%;
 }
+
+.panel.wwd-right {
+	background-color: #c9302c;
+	color: white;
+}

@@ -1,7 +1,7 @@
 $(function(){
 	
 	// Navigation
-	$('ul.nav a').smoothScroll();
+	$('ul.nav a, a.smooth').smoothScroll();
 
 	$('.navbar ul li').click(function(e) {
 		$('.navbar ul li').removeClass('active');       
