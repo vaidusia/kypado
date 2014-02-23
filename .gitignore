@@ -1,3 +1,3 @@
-# Filtruoti paveiksliukus
-/images/pic*.png
-/images/pic*.jpg
+# Filter out sublime project
+*.sublime-project
+*.sublime-workspace
