@@ -1,0 +1,14 @@
+body {
+	background: #fff;
+	padding: 20px;
+}
+
+.privacypolicy h5 {
+	font-size: 18px;
+}
+
+.privacypolicy div.page-header h1 {
+	margin-top: 30px;
+	font-size: 17px;
+	font-weight: bold;
+}
