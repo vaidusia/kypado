@@ -19,7 +19,7 @@ var Kypado = {
 		iframe.setAttribute("src", link);
 		iframe.style.position="fixed"; 
 		iframe.style.left="50%"; 
-		iframe.style.top="5%";
+		iframe.style.top="2%";
 		iframe.style.marginLeft="-450px";
 		iframe.style.zIndex="10000";
 		iframe.style.boxShadow="0 5px 15px";
@@ -34,7 +34,7 @@ var Kypado = {
 		closeButton.style.position="fixed";
 		closeButton.style.left="50%";
 		closeButton.style.marginLeft="-475px";
-		closeButton.style.top="5%";
+		closeButton.style.top="2%";
 		closeButton.style.zIndex="10001";
 		closeButton.id="kypadoframeclose";
 
@@ -56,7 +56,7 @@ var Kypado = {
 		iframe.setAttribute("src", link);
 		iframe.style.position="fixed"; 
 		iframe.style.left="50%"; 
-		iframe.style.top="5%";
+		iframe.style.top="2%";
 		iframe.style.marginLeft="-450px";
 		iframe.style.zIndex="10000";
 		iframe.style.boxShadow="0 5px 15px";
@@ -71,7 +71,7 @@ var Kypado = {
 		closeButton.style.position="fixed";
 		closeButton.style.left="50%";
 		closeButton.style.marginLeft="-475px";
-		closeButton.style.top="5%";
+		closeButton.style.top="2%";
 		closeButton.style.zIndex="10001";
 		closeButton.id="kypadoframeclose";
 
@@ -92,7 +92,7 @@ var Kypado = {
 		iframe.setAttribute("src", link);
 		iframe.style.position="fixed"; 
 		iframe.style.left="50%"; 
-		iframe.style.top="5%";
+		iframe.style.top="2%";
 		iframe.style.marginLeft="-450px";
 		iframe.style.zIndex="10000";
 		iframe.style.boxShadow="0 5px 15px";
@@ -107,7 +107,7 @@ var Kypado = {
 		closeButton.style.position="fixed";
 		closeButton.style.left="50%";
 		closeButton.style.marginLeft="-475px";
-		closeButton.style.top="5%";
+		closeButton.style.top="2%";
 		closeButton.style.zIndex="10001";
 		closeButton.id="kypadoframeclose";
 
@@ -124,12 +124,12 @@ var Kypado = {
 		iframe.frameBorder=0;
 		iframe.maxWidth="100%"
 		iframe.width="900px";
-		iframe.height="800px";
+		iframe.height="90%";
 		iframe.id="kypadoframe";
 		iframe.setAttribute("src", link);
 		iframe.style.position="fixed"; 
 		iframe.style.left="50%"; 
-		iframe.style.top="5%";
+		iframe.style.top="2%";
 		iframe.style.marginLeft="-450px";
 		iframe.style.zIndex="10000";
 		iframe.style.boxShadow="0 5px 15px";
@@ -144,7 +144,7 @@ var Kypado = {
 		closeButton.style.position="fixed";
 		closeButton.style.left="50%";
 		closeButton.style.marginLeft="-475px";
-		closeButton.style.top="5%";
+		closeButton.style.top="2%";
 		closeButton.style.zIndex="10001";
 		closeButton.id="kypadoframeclose";
 

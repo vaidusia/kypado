@@ -41,6 +41,10 @@ body {
 	overflow-y: scroll;
 }
 
+.privacy_text h5 {
+	font-size: 20px;
+}
+
 .privacy_text h4 {
 	-webkit-transition: all 0.7s ease;
     -moz-transition: all 0.7s ease;
@@ -64,11 +68,10 @@ body.video {
 	display: table;
 }
 
-body.video .container {
-	display: table-cell;
-	vertical-align: middle;
+.video-video {
+	margin: auto;
 }
 
-.video-video {
-	maring: auto;
+.page-header {
+	margin-top: 0px;
 }
