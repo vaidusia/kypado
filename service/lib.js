@@ -5,8 +5,8 @@
 
 var Kypado = {
 
-	//kypadoServiceUrlRoot: "http://www.kypado.com",
-	kypadoServiceUrlRoot: "http://127.0.0.1:8080/LS-page",
+	kypadoServiceUrlRoot: "http://www.kypado.com",
+	//kypadoServiceUrlRoot: "http://127.0.0.1:8080/LS-page",
 
 	load: function(clientid) {			
 
