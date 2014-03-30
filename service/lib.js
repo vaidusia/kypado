@@ -6,7 +6,7 @@
 var Kypado = {
 
 	kypadoServiceUrlRoot: "http://www.kypado.com",
-	//kypadoServiceUrlRoot: "http://127.0.0.1:8080/LS-page",
+	//kypadoServiceUrlRoot: "file://localhost/Users/vaidusia/Documents/hdocs/git/LS-page/",
 
 	load: function(clientid) {			
 

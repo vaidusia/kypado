@@ -42,7 +42,13 @@ body {
 }
 
 .privacy_text h5 {
-	font-size: 20px;
+	font-size: 17px;
+	text-align: justify;
+}
+
+.layer1 h5 {
+	font-size: 17px;
+	text-align: justify;
 }
 
 .privacy_text h4 {
