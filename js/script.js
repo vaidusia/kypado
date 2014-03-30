@@ -1,7 +1,7 @@
 $(function(){
 	
 	// Navigation
-	$('ul.nav a, a.smooth').smoothScroll();
+	$('ul.nav a, a.smooth').smoothScroll({offset: -50});
 
 	$('.navbar ul li').click(function(e) {
 		$('.navbar ul li').removeClass('active');       
@@ -16,6 +16,26 @@ $(function(){
         }
     }
 
+    // Kypado configuration
+	$('#kypado-example-privacy_text').click(function(e) {
+		Kypado.loadText("0");
+		e.preventDefault();
+	});
+
+	$('#kypado-example-privacy_visuals').click(function(e) {
+		Kypado.loadVisuals("0");
+		e.preventDefault();
+	});
+
+	$('#kypado-privacy').click(function(e) {
+		Kypado.loadVisuals("0");
+		e.preventDefault();
+	});
+
+	$('#kypado-example-privacy_video').click(function(e) {
+		Kypado.loadVideo("0");
+		e.preventDefault();
+	});
 
 
 	$( "#form-contact" ).each(function() {	
