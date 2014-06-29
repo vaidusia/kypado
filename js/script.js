@@ -100,4 +100,4 @@ $(function(){
 			node.parent().addClass("has-error");
 		}
 	});	
-});
+});	
