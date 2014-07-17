@@ -5,8 +5,9 @@
 
 var Kypado = {
 
-	kypadoServiceUrlRoot: "http://www.kypado.com",
-	//kypadoServiceUrlRoot: "file://localhost/Users/vaidusia/Documents/hdocs/git/LS-page/",
+//kypadoServiceUrlRoot: "http://www.kypado.com",
+//kypadoServiceUrlRoot: "file://localhost/Users/vaidusia/Documents/hdocs/git/LS-page/",
+kypadoServiceUrlRoot:  "http://localhost:8888/LS-pagecopy",
 
 	load: function(clientid) {			
 

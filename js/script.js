@@ -23,7 +23,7 @@ $(function(){
 	});
 
 	$('#kypado-example-privacy_visuals').click(function(e) {
-		Kypado.loadVisuals("0");
+		Kypado.load("1");
 		e.preventDefault();
 	});
 
@@ -100,4 +100,4 @@ $(function(){
 			node.parent().addClass("has-error");
 		}
 	});	
-});	
+});
