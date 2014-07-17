@@ -3,6 +3,16 @@ body {
 	padding: 20px;
 }
 
+html, body {
+	height: 100%;
+	width: 100%;
+}
+
+body {
+	background: #fff;
+	padding: 20px;
+}
+
 .privacypolicy h5 {
 	font-size: 18px;
 }
@@ -13,3 +23,108 @@ body {
 	font-weight: bold;
 }
 
+.privacy_info {
+	height:30%;
+}
+
+.privacy_text_container {
+	height: 60%;
+}
+
+.privacy_text_nav ul {
+	list-style-type: none;
+	padding-left: 5px;
+}
+
+.privacy_text_nav ul li {
+	padding-bottom: 2px;
+}
+
+.privacy_text {
+	text-indent: justify;
+	height: 100%;
+	overflow-y: scroll;
+}
+
+.privacy_text h5 {
+	font-size: 17px;
+	text-align: justify;
+}
+
+.layer1 h5 {
+	font-size: 17px;
+	text-align: justify;
+}
+
+.privacy_text h4 {
+	-webkit-transition: all 0.7s ease;
+    -moz-transition: all 0.7s ease;
+    -o-transition: all 0.7s ease;
+    transition: all 0.7s ease;	
+}
+
+.highlight {
+	background: #18bc9c;
+}
+
+.icon-description {
+	font-size: 1.2em;
+}
+
+.row {
+	margin-bottom: 1.2em;
+}
+
+body.video {
+	display: table;
+}
+
+.video-video {
+	margin: auto;
+}
+
+.page-header {
+	margin-top: 0px;
+}
+
+.privacypolicy h5 {
+	font-size: 18px;
+}
+
+.privacypolicy div.page-header h1 {
+	margin-top: 30px;
+	font-size: 17px;
+	font-weight: bold;
+}
+
+#kp-doc-frame-button-container {
+	left: 50%;
+	margin-left: -490px;
+	top: 55%;
+	position: fixed;
+}
+
+#kp-doc-frame-button-simple {
+
+}
+
+#kp-doc-frame-button-full {
+	margin-top: 40px;
+}
+
+.kp-doc-frame-button {
+	width: 100px;
+	height: 50px;
+	position: relative;
+	z-index: 1000;
+	-webkit-transform: rotate(270deg);
+	-webkit-transform-origin: left top 0;
+	border: none;
+	border-radius: 5px;
+	box-shadow: -2px -3px 15px;
+	display: block;
+}
+
+.kp-doc-frame-button-current {
+	background: #FFFFFF
+}

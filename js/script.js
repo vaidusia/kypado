@@ -18,17 +18,12 @@ $(function(){
 
     // Kypado configuration
 	$('#kypado-example-privacy_text').click(function(e) {
-		Kypado.loadText("0");
+		Kypado.loadText("1");
 		e.preventDefault();
 	});
 
 	$('#kypado-example-privacy_visuals').click(function(e) {
-		Kypado.load("1");
-		e.preventDefault();
-	});
-
-	$('#kypado-privacy').click(function(e) {
-		Kypado.loadVisuals("0");
+		Kypado.loadVisuals("1");
 		e.preventDefault();
 	});
 
@@ -37,6 +32,10 @@ $(function(){
 		e.preventDefault();
 	});
 
+	$('#kypado-privacy').click(function(e) {
+		Kypado.loadVisuals("0");
+		e.preventDefault();
+	});
 
 	$( "#form-contact" ).each(function() {	
 		var form = $(this);
