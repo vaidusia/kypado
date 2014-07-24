@@ -6,6 +6,7 @@
 var Kypado = {
 
 	kypadoServiceUrlRoot: "http://127.0.0.1/projects/LS-page/",
+	//kypadoServiceUrlRoot: "http://localhost:8888/git/LS-page/",
 	
 	loadCss: function() {
 		var styles = "@import url(' " + this.kypadoServiceUrlRoot + "/service/css/kypado.css ');";
