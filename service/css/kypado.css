@@ -1,4 +1,4 @@
-body {
+body.tgsimpleprivacy {
 	background: #fff;
 	padding: 20px;
 }
@@ -8,7 +8,7 @@ html, body {
 	width: 100%;
 }
 
-body {
+body.tgfullprivacy {
 	background: #fff;
 	padding: 20px;
 }
